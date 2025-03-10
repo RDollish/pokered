@@ -243,10 +243,10 @@ ClefairyEvosMoves:
 	db EVOLVE_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
 ; Learnset
-	db 13, SING
+	db 1, METRONOME
 	db 18, DOUBLESLAP
 	db 24, MINIMIZE
-	db 31, METRONOME
+	db 31, SING
 	db 39, DEFENSE_CURL
 	db 48, LIGHT_SCREEN
 	db 0
@@ -831,7 +831,7 @@ MankeyEvosMoves:
 	db EVOLVE_LEVEL, 28, PRIMEAPE
 	db 0
 ; Learnset
-	db 15, KARATE_CHOP
+	db 1, METRONOME
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
 	db 33, SEISMIC_TOSS
@@ -1711,7 +1711,7 @@ AlakazamEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, CONFUSION
+	db 1, METRONOME
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
